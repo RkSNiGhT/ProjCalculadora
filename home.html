@@ -15,7 +15,14 @@
             <h1>Calculadora</h1>
             <input id="N1" type="number"/>
             <input id="N2" type="number"/>
-            <button id="btnSomar" onclick="calcSoma()">Somar</button>
+            <div >
+
+                <button type="button" id="btnSomar" onclick="calcSoma(this)">+</button>
+                <button type="button" id="btnSub" onclick="calcSoma(this)">-</button>
+                <button type="button" id="btnDiv" onclick="calcSoma(this)">/</button>
+                <button type="button" id="btnMulti" onclick="calcSoma(this)">*</button>
+
+            </div>
             <input id="Resultado" readonly/>
         </div>
 

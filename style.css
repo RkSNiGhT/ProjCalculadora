@@ -1,5 +1,6 @@
 body{
     background-color: black;
+    text-align: center;
 }
 input{
     height: 22px;
@@ -23,6 +24,7 @@ button{
     font-size: 1.2rem;
     border-radius: 4px;
     cursor: pointer;
+    margin-left: 10px;
 }
 button:hover{
     background-color: aqua;
@@ -30,9 +32,8 @@ button:hover{
     color: black;
 }
 
-
 .container {
-    width: 600;
+    width: 1200px;
     background-color: gray;
     display: flex;
     flex-direction: row;
