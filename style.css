@@ -8,6 +8,7 @@ input{
     font-size: 1.2rem;
     margin: 15px 70px;
     border-radius: 5px;
+    text-align: right;
 }
 input[type=number]:focus{
     outline: none;
@@ -37,7 +38,7 @@ button:hover{
     background-color: gray;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    justify-content: center;
     margin: auto;
     padding: 40px;
     border-radius: 4px;
@@ -53,4 +54,19 @@ button:hover{
     row-gap: 20px;
     border-radius: 10px;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.hist{
+    width: 50%;
+    background-color: black;
+    align-items: end;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: 26px;
+}
+.texto{
+    text-align: right;
+    font-size: 22px;
+    color: white;
+
 }

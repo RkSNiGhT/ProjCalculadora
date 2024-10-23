@@ -13,8 +13,8 @@
 
         <div class="calc">
             <h1>Calculadora</h1>
-            <input id="N1" type="number"/>
-            <input id="N2" type="number"/>
+            <input id="N1" type="number" placeholder="0"/>
+            <input id="N2" type="number" placeholder="0"/>
             <div >
 
                 <button type="button" id="btnSomar" onclick="calcSoma(this)">+</button>
@@ -26,8 +26,12 @@
             <input id="Resultado" readonly/>
         </div>
 
-        <div class="hist">
-
+        <div  class="hist">
+            <div> <strong><h1>Histórico</h1></strong></div>
+            <div class="texto">
+                10 últimas operações:
+                <div id="historico"></div>
+            </div>
         </div>
     </div>
     
